@@ -9,7 +9,7 @@ permissions:
   contents: read
 
 env: 
-  TF_VAR_entity_name: "${{ secrets.ENTITY_NAME }}"
+  TF_VAR_ENTITY_NAME: "${{ secrets.ENTITY_NAME }}"
   TF_VAR_NEW_RELIC_LICENSE_KEY: "${{ secrets.NEW_RELIC_LICENSE_KEY }}" 
   TF_VAR_NEW_RELIC_API_KEY: "${{ secrets.NEW_RELIC_API_KEY }}"
   TF_VAR_NEW_RELIC_ACCOUNT: "${{ secrets.NEW_RELIC_ACCOUNT }}"

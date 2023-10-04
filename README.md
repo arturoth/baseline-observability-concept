@@ -18,7 +18,10 @@ Here's an example snippet for how to use this component.
 
 ## Providers
 
-No providers.
+| Name | Version |
+|------|---------|
+| <a name="provider_newrelic"></a> [newrelic](#provider\_newrelic) | >= 3.20 |
+
 
 ## Resources
 
